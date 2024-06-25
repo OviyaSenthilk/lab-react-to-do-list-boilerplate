@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
+  background-color: #f6caca;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@ body {
 
 /* Container Styles */
 .todo-container {
-  background-color: white;
+  background-color: rgb(182, 106, 149);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -29,14 +29,14 @@ input[type="text"] {
   width: calc(100% - 22px);
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #c62a2a;
   border-radius: 4px;
 }
 
 /* Button Styles */
 button {
   background-color: #28a745;
-  color: white;
+  color: rgb(9, 7, 7);
   border: none;
   padding: 10px 15px;
   border-radius: 4px;
@@ -45,17 +45,17 @@ button {
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #3a8b97;
 }
 
 button:disabled {
-  background-color: #ddd;
+  background-color: #f52222;
   cursor: not-allowed;
 }
 
 /* List Styles */
-ul {
-  list-style: none;
+ol {
+  list-style:circle;
   padding: 0;
 }
 
@@ -64,26 +64,11 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 8px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #be5656;
 }
 
 li:last-child {
   border-bottom: none;
 }
 
-/* Edit and Delete Button Styles */
-button.edit-btn {
-  background-color: #ffc107;
-}
 
-button.edit-btn:hover {
-  background-color: #e0a800;
-}
-
-button.delete-btn {
-  background-color: #dc3545;
-}
-
-button.delete-btn:hover {
-  background-color: #c82333;
-}
